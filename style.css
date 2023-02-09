@@ -1,0 +1,298 @@
+.nav-bar ul li {
+  list-style: none;
+  margin-left: 15px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+}
+.logo p {
+  margin: 5px;
+  font-size: 3em;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
+.logo p span {
+  color: #ffd369;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+.nav-bar ul li a:hover {
+  color: #ffd369;
+  transition: all 0.5;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+  background-color: #222831;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-bar ul li a i {
+  margin-right: 5px;
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.sell-btn {
+  margin-left: 20px;
+  border-radius: 5px;
+  background-color: #ffd369;
+  color: #393e46;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 1em;
+  width: 120px;
+  height: 50px;
+}
+
+.sell-btn:hover {
+  background-color: #222831;
+  color: #ffd369;
+  border-color: #ffd369;
+}
+
+main {
+  padding: 1px;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #222831;
+}
+
+.logo {
+  cursor: pointer;
+}
+.container {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+}
+.select,
+.filter {
+  margin-bottom: 20px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  width:20%;
+}
+
+.select{
+  width: 35%;
+}
+.filter label,
+.select label {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+
+.filter select,
+.select select {
+  border: none;
+  background-color: #393e46;
+  color: white;
+  width: 200px;
+  height: 35px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  font-size: 1em;
+}
+.select select option {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+}
+
+.select select:focus {
+  box-shadow: none;
+  border-color: none;
+  outline: none;
+}
+
+.add-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #222831;
+  width: 100%;
+  align-items: center;
+}
+
+.add-container h2 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2em;
+}
+
+.add-select {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.add-btn {
+  margin-top: 20px;
+  width: 150px;
+  height: 40px;
+  background-color: #ffd369;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  border: 2px solid #ffd369;
+  border-radius: 15px;
+}
+span {
+  color: #ffd369;
+}
+.car {
+  border-radius:20px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #393e46;
+  width: 55%;
+  height: 300px;
+  padding-top: 20px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-image: url(/img/car.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.card img {
+  width: 250px;
+  height: 200px;
+}
+
+.card-title {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.4em;
+  margin: 0px;
+  margin-left: 20px;
+}
+
+.card {
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000cb;
+  width: 100%;
+  height: 100px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.details {
+  margin-left: 20px;
+  color: white;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.all-cars {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.filters{
+  padding-top: 15px;
+  padding-left:100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+  width: 100%;
+  height: 100px;
+  background-color:#222831;
+}
+
+.filter select {
+  background-color: #222831;
+}
+
+.btn-rmv,
+.btn-upd ,.save-btn,.cancel-btn{
+  background-color: rgb(126, 63, 63);
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.2em;
+  margin-left: 20px;
+  text-align: center;
+  width: 80px;
+  border: 1px solid #393e46;
+  cursor: pointer;
+}
+
+.btn-upd {
+  background-color: #c5ae79;
+}
+
+
+.modal-update{
+  position: absolute;
+  top: 0;
+  background-color:#000000de;
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.btn-edit{
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.save-btn{
+  background-color:green;
+}
+
+.cancel-btn{
+  background-color: rgb(60, 122, 255);
+}
+
+footer{
+  padding: 1px;
+  background-color: #222831;
+  text-align: center;
+  color: #ffd369;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/a4fb4fc945.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Autovit</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <p>Auto<span>vit</span></p>
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="/index.html">HOME</a></li>
+          <li>
+            <a href=""
+              ><i class="fa-sharp fa-solid fa-sparkles"></i>MASINI NOI</a
+            >
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-heart"></i>FAVORITE</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-user"></i>AUTENTIFICA-TE</a>
+          </li>
+        </ul>
+        <a href="/vindem.html"
+          ><button class="sell-btn">
+            <i class="fa-solid fa-plus"></i>Vinde Acum
+          </button></a
+        >
+      </div>
+    </header>
+
+    <main class="container">
+
+      <section class="filters">
+
+        <div class="marca-select filter">
+          <label for="marca">Marca</label>
+          <select class="select-box" name="" id="marca">
+            <option value="" disabled selected>Selecteaza</option>
+            <option value="">Audi</option>
+            <option value="">Ford</option>
+            <option value="">Mercedes</option>
+          </select>
+        </div>
+
+        <div class="model-select filter">
+          <label for="Model">Model</label>
+          <select class="select-box" name="" id="model">
+            <option value="" disabled selected>Selecteaza</option>
+            <option value="">S</option>
+            <option value="">C</option>
+            <option value="">E</option>
+          </select>
+        </div>
+
+        <div class="an-select filter">
+          <label for="an">Anul </label>
+          <select class="select-box" name="" id="an">
+            <option value="" disabled selected>Selecteaza</option>
+            <option value="">2005</option>
+            <option value="">2006</option>
+            <option value="">2010</option>
+          </select>
+        </div>
+
+        <div class="color-select filter">
+          <label for="culoare">Culoare </label>
+          <select class="select-box" name="" id="culoare">
+            <option value="" disabled selected>Selecteaza</option>
+            <option value="">Negru</option>
+            <option value="">Alb</option>
+            <option value="">Gri</option>
+          </select>
+        </div>
+
+      </section>
+
+        <section class="all-cars">
+            <div class="car id-115">
+               
+            </div>
+               
+            </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+
+
+  <script src="/api.js"></script>
+  <script src="/function.js"></script>
+  <script src="/app.js"></script>
+</html>
